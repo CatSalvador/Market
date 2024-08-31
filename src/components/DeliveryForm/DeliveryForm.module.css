@@ -1,0 +1,99 @@
+.delivery-form {
+    display: grid;
+    grid-template-columns: 290px 290px;
+    gap: 0 80px;
+    margin-top: 22px;
+}
+
+.form {
+    max-width: 290px;
+}
+
+.delivery-address {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        margin-bottom: 4px;
+        font-size: 1em;
+        font-weight: bold;
+    }
+}
+
+.delivery-name {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        margin-bottom: 4px;
+        font-size: 1em;
+        font-weight: bold;
+    }
+}
+
+.delivery-phone {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 4px;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.manage {
+    display: flex;
+    flex-direction: column;
+    gap: 12px 0;
+
+}
+
+.delivery-time {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.time-block {
+    margin-top: 4px;
+}
+
+.check {
+    width: 292px;
+    height: 122px;
+    background-color: #F0F4FB;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.check > div {
+    display: flex;
+    justify-content: space-between;
+    color: #727280;
+}
+
+.check div:last-child {
+    margin-top: 12px;
+}
+
+.check div span:last-child {
+    font-weight: bold;
+    color: #2D2D2F;
+}
+
+@media (max-width: 1100px) {
+    .delivery-form {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+        gap: 20px 0;
+    }
+}

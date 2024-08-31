@@ -1,0 +1,27 @@
+.location-mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    min-width: 40px;
+
+    :nth-child(1) {
+        min-width: 20px;
+        min-height: 20px;
+    }
+}
+
+.location-name {
+    margin-left: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 0.8em;
+    color: #727280;
+}
+
+@media (max-width: 820px) {
+    .location-name {
+        display: none;
+    }
+}

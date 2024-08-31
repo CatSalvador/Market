@@ -1,0 +1,15 @@
+.label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 0.8em;
+    flex-basis: calc(50% - 10px);
+}
+
+.name {
+    color: #727280;
+}
+
+.value {
+    color: #2D2D2F;
+}

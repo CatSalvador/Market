@@ -1,0 +1,43 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+}
+
+.image {
+    height: 180px;
+    width: 100%;
+}
+
+
+.name {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 0.9em;
+}
+
+.price {
+    color: #3768e6;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.discount {
+    margin-bottom: 8px;
+
+    :nth-child(1) {
+        font-size: 1em;
+        color: #8D8D8E;
+        text-decoration: line-through;
+    }
+
+    :nth-child(2) {
+        font-size: 1em;
+        margin-left: 6px;
+        text-decoration: none;
+        color: #FF2D87;
+        font-weight: bold;
+    }
+}

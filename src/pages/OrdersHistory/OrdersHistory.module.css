@@ -1,0 +1,18 @@
+.order-history {
+    margin-top: 34px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: 90px;
+}
+
+.orders-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+}
+

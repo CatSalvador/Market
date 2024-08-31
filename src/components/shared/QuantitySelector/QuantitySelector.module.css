@@ -1,0 +1,18 @@
+.quantity-selector {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 8px;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #AEC2EA;
+    height: 40px;
+    max-width: 134px;
+
+    :nth-child(1) {
+        margin-bottom: 6px;
+    }
+
+    :nth-child(3) {
+        margin-bottom: 4px;
+    }
+}

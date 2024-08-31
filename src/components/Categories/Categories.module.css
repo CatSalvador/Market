@@ -1,0 +1,24 @@
+.categories-wrapper {
+
+}
+.title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: 90px;
+
+}
+
+.settings {
+    font-size: 0.8em;
+    color: #3768e6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 8px 0;
+    margin-top: 4px;
+}

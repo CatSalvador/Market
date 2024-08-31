@@ -1,0 +1,38 @@
+.app-container {
+    height: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    border-left: 1px solid #F0F4FB;
+    border-right: 1px solid #F0F4FB;
+    position: relative;
+
+    .content-banner-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #ffff;
+        position: relative;
+        min-height: calc(100vh - 215px);
+
+        .main-content {
+            padding: 8px 54px;
+            width: calc(100% - 351px);
+            border-right: 1px solid #F0F4FB;
+        }
+
+        @media (max-width: 900px) {
+            .main-content {
+                width: calc(100% - 200px);
+            }
+        }
+
+        @media (max-width: 760px) {
+            .main-content {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+
