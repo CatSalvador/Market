@@ -63,10 +63,10 @@ export const Catalog = () => {
     const fetchSortProductsByPrice = async (range: number[]) => {
         const variations = await getProductVariations({range, sort})
 
-        const arrIds = [...new Set(variations?.map(variation => variation.product_id))];
-        const product = await getProducts({filterByIds: arrIds, category_id: activeCategory})
-        const arrIds2 = product.map(el => el.id)
-        const images = await getProductImagesByIds(arrIds2)
+        const variationIds = [...new Set(variations?.map(variation => variation.product_id))];
+        const product = await getProducts({filterByIds: variationIds, category_id: activeCategory})
+        const productIds = product.map(el => el.id)
+        const images = await getProductImagesByIds(productIds)
         addProductData(images, product, variations)
 
         setIsLoading(false)
